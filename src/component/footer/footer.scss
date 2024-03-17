@@ -1,0 +1,129 @@
+.footer-root {
+  height: 336px;
+
+  .content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .footer-information {
+      width: 1170px;
+      margin-top: 40px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      height: 240px;
+
+      .contacts {
+        display: flex;
+        gap: 30px;
+        text-align: start;
+
+        h1 {
+          margin-bottom: 10px;
+          font-size: 18px;
+          font-weight: 500;
+        }
+
+        h2 {
+          color: #626262;
+          line-height: 30px;
+        }
+
+        .icons {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+
+          img {
+            cursor: pointer;
+          }
+        }
+      }
+
+      .to-buyers {
+        text-align: start;
+
+        h1 {
+          margin-bottom: 10px;
+          font-size: 18px;
+          font-weight: 500;
+        }
+
+        h2 {
+          color: #626262;
+          line-height: 30px;
+        }
+      }
+
+      .account {
+        text-align: start;
+
+        h1 {
+          margin-bottom: 10px;
+          font-size: 18px;
+          font-weight: 500;
+        }
+
+        h2 {
+          color: #626262;
+          line-height: 30px;
+        }
+      }
+
+      .about-us {
+        text-align: start;
+
+        h1 {
+          margin-bottom: 10px;
+          font-size: 18px;
+          font-weight: 500;
+        }
+
+        h2 {
+          color: #626262;
+          line-height: 30px;
+        }
+      }
+
+    }
+
+    .footer-navigation {
+      width: 100%;
+      height: 93px;
+      background: #343434;
+      display: flex;
+      justify-content: center;
+
+      .container {
+        width: 1170px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .nav-bar {
+          display: flex;
+          gap: 30px;
+
+          button {
+            color: white;
+            border: none;
+            background: none;
+            cursor: pointer;
+            text-transform: uppercase;
+            font: bold;
+          }
+        }
+
+        .license {
+          color: white;
+          font-size: 13px;
+        }
+      }
+
+    }
+  }
+}

@@ -1,0 +1,60 @@
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+
+  .offer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1170px;
+    height: 381px;
+
+    .description {
+      width: 50%;
+      text-align: start;
+
+      h1 {
+        color: #343434;
+        font-size: 35px;
+        font-weight: 600;
+        margin-bottom: 30px;
+      }
+
+      p {
+        font-size: 17px;
+        margin-bottom: 40px;
+
+      }
+
+      button {
+        background: #000;
+        color: white;
+        border: none;
+        width: 165px;
+        height: 51px;
+        border-radius: 15px;
+        font-size: 18px;
+        transition: background 0.5s, color 0.5s;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background: white;
+        color: #000;
+        border: 2px solid #343434;
+      }
+    }
+
+    .img {
+      height: 100%;
+
+      img {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+      }
+    }
+  }
+}
