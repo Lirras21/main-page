@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Lirras21/main-page.git/static/css/main.bdcf437f.css",
+    "main.js": "/Lirras21/main-page.git/static/js/main.28c8b798.js",
+    "static/media/slick.svg": "/Lirras21/main-page.git/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Lirras21/main-page.git/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Lirras21/main-page.git/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Lirras21/main-page.git/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Lirras21/main-page.git/index.html",
+    "main.bdcf437f.css.map": "/Lirras21/main-page.git/static/css/main.bdcf437f.css.map",
+    "main.28c8b798.js.map": "/Lirras21/main-page.git/static/js/main.28c8b798.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bdcf437f.css",
+    "static/js/main.28c8b798.js"
+  ]
+}
