@@ -20,7 +20,7 @@ function Header() {
       </div>
       <div className='nav-bar'>
         <div className='navigation'>
-          <img src='/icons/logo.svg' width={70} height={35} alt='logo' />
+          <img src='/icons/logo.svg' alt='logo' />
           <div className='menu'>
             <button>{t.navBar.news}</button>
             <button>{t.navBar.male}</button>
@@ -30,12 +30,12 @@ function Header() {
           </div>
           <div className='functional-panel'>
             <div className='search'>
-              <img src='/icons/header/search.svg' alt='search' width={20} height={20} />
+              <img src='/icons/header/search.svg' alt='search' />
               <input type="text" />
             </div>
             <div className='favorite-and-shop-cart'>
-              <img src='/icons/header/favorite.svg' alt='search' width={20} height={20} />
-              <img src='/icons/header/shop-cart.svg' alt='search' width={20} height={20} />
+              <img src='/icons/header/favorite.svg' alt='favorite' />
+              <img src='/icons/header/shop-cart.svg' alt='shop-cart' />
             </div>
           </div>
         </div>
